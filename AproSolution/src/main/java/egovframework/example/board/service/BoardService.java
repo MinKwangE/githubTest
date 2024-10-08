@@ -25,7 +25,7 @@ public interface BoardService {
 	//게시물 총 갯수
 	public int countBoard(BoardVO vo);
 	
-	//조회수 카운트
+	//조회수 카운트 wtqws
 	void updateCnt(BoardVO vo);
 
 }
