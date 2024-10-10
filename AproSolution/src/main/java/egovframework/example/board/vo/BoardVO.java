@@ -18,6 +18,9 @@ public class BoardVO {
 	private int start;
 	private int listcnt;
 	
+	private String address;
+	private String tel;
+	
 	
 	
 	public int getNo() {
@@ -88,11 +91,24 @@ public class BoardVO {
 		this.listcnt = listcnt;
 	}
 	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
 	@Override
 	public String toString() {
 		return "BoardVO [no=" + no + ", title=" + title + ", writer=" + writer + ", content=" + content + ", regdate="
 				+ regdate + ", cnt=" + cnt + ", note=" + note + ", searchCondition=" + searchCondition
-				+ ", searchKeyword=" + searchKeyword + ", start=" + start + ", listcnt=" + listcnt + "]";
+				+ ", searchKeyword=" + searchKeyword + ", start=" + start + ", listcnt=" + listcnt + ", address="
+				+ address + ", tel=" + tel + "]";
 	}
 	
 	
