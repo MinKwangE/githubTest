@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: mink2
-Build-Jdk: 11.0.19
+Built-By: rddck
+Build-Jdk: 11.0.0.2
 Created-By: Maven Integration for Eclipse
 

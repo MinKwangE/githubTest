@@ -152,7 +152,7 @@
     </div>  
    
 <div class="btn_wrap">
-
+hello
 
 <button type="submit" value="글수정" class="mo" ><b>수정</b></button>&nbsp;&nbsp;
 <button type="button" value="글삭제" class="cel" onclick="boardDelFnc(${board.no})"><b>삭제</b></button>
